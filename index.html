@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pizzeros</title>
+    <style src="./styles/style.css"></style>
+    <script src="./bundle.js"></script>
+  <script defer src="bundle.e10b4cf5caa6dbc13eae.js"></script></head>
+  <body>
+    <div id="content">
+      <header>
+        <div class="title">
+          <div id="title-div">
+            <img src="Zasób 5.png" class="pizzeros-logo" alt="pizzeros logo">
+
+            <h1>Pizzeros</h1>
+            <img src="Zasób 5.png" class="pizzeros-logo" alt="pizzeros logo">
+          </div>
+          <div id="motto-container">
+          <h2 id="motto">Hunger is coming...</h2>
+
+          </div>
+        </div>
+
+        <form id="tab-form" action="" method="">
+          <label for="choice" class="nav-choice" id="home">Home</label>
+          <input
+            type="radio"
+            name="choice"
+            id="home-input"
+            class="tab-input"
+            value="option-home"
+            onclick="tabRadioInputLibrary.changeTab()"
+          />
+          <label for="choice" class="nav-choice" id="menu">Menu</label>
+          <input
+            type="radio"
+            name="choice"
+            id="home-input"
+            class="tab-input"
+            value="option-menu"
+            onclick="tabRadioInputLibrary.changeTab()"
+          />
+          <label for="choice" class="nav-choice" id="about">About</label>
+          <input
+            type="radio"
+            name="choice"
+            id="home-input"
+            class="tab-input"
+            value="option-about"
+            onclick="tabRadioInputLibrary.changeTab()"
+          />
+        </form>
+      </header>
+      <div id="inner-content">
+        <h3>&emsp;Welcome, Good Folk, to A Pizzeros!</h3>
+        
+        <p>
+          &emsp; Hark! Gather ye, noble lords and ladies of Westeros, to the
+          realm of savory delights, where thine hunger shall meet its match! At
+          A Pizzeros, we art not merely purveyors of pizzas, but the very
+          artisans of the dough, crafting pies that even the likes of King
+          Robert Baratheon would forsake his wine for!
+        </p>
+        <div id="pizza-world-container"></div>
+        <figure>
+          <img
+            src="pizzarworld.png"
+            width="150px"
+            id="pizza-world-image"
+            alt="pizza world westeros"
+          />
+          <figcaption><cite>The world is flat as pizza</cite></figcaption>
+        </figure>
+        
+        <p>&emsp; Go to <strong>Menu</strong> and check out our 8 flavors</p>
+      </div>
+      <p id="telephone-main"><strong>(22) 777-77-77</strong></p>
+    </div>
+
+    
+  </body>
+</html>
